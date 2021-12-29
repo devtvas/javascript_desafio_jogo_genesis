@@ -7,6 +7,6 @@ Um dessafio do bootcamp(Eduzz), onde foi desenvolvido um game genesis do tipo in
 * [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 * [Javascript básico](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
  
-
+![Genesis game](/assets/imgages/screen_game.png "Genesis screen")
 
 ## 🚀 Let's code! 🚀 @devtvas
