@@ -1,6 +1,8 @@
 body {
   margin: 0;
-  background-color: rgba(208, 255, 239);
+  /* background-color: rgba(208, 255, 239); */
+  background-image: url("/images/plano_fundo2.png");
+  background-size: cover;
 }
 
 .main-game {
@@ -15,8 +17,8 @@ body {
   display: grid;
   grid-template-areas: "verde vermelho" "amarelo azul";
   grid-gap: 10px;
-  border: 1px solid #fff;
-  background-color: #fff;
+  border: 1px solid grey;
+  background-color: #111;
   border-radius: 100%;
   width: 700px;
   height: 700px;
@@ -25,25 +27,33 @@ body {
 .blue {
   grid-area: azul;
   background-color: blue;
+  background-image: url("/images/1.png");
+  background-size: cover;
   border-bottom-right-radius: 100%;
 }
 
 .red {
   grid-area: vermelho;
   background-color: red;
+  background-image: url("/images/2.png");
+  background-size: cover;
   border-top-right-radius: 100%;
 }
 .yellow {
   grid-area: amarelo;
   background-color: yellow;
+  background-image: url("/images/3.png");
+  background-size: cover;
   border-bottom-left-radius: 100%;
 }
 .green {
   grid-area: verde;
   background-color: green;
+  background-image: url("/images/4.png");
+  background-size: cover;
   border-top-left-radius: 100%;
 }
 
 .selected {
-    opacity: 0.4;
+  opacity: 0.2;
 }
